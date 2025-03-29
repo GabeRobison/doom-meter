@@ -1,0 +1,43 @@
+
+============================
+Date/Time: 2025-03-29T20:55:48.531Z
+Text Submitted: 
+ase toggle button on transform scale box shadow px px ff c c status margin top p
+x font size px color ccc style head body h DoomMeter h button id toggle button b
+utton div id status Loading div script src popup js script body html DOCTYPE htm
+l DOCTYPE html html html html html head head head title title title DoomMeter ti
+tle title title style style style body body font family font family Segoe UI Seg
+oe UI Tahoma Geneva Verdana sans serif background color background color e e e e
+ e e color color fefefe fefefe width width px px padding padding px px margin ma
+rgin text align text align center h h margin margin px px font size font size px
+ px color color ff c c ff c c toggle button toggle button width width px px heig
+ht height px px background image background image url url assets doom meter png 
+assets doom meter png background size background size contain background repeat 
+background repeat no repeat background position background position center borde
+r border none cursor cursor pointer transition transition transform s s ease tog
+gle button toggle button on on transform transform scale scale box shadow box sh
+adow px px px px ff c c ff c c status status margin top margin top px px font si
+ze font size px px color color ccc ccc style style style head head head body bod
+y body h h h DoomMeter h h h button button button id id toggle button toggle but
+ton button button button div div div id id status status Loading div div div scr
+ipt script script src src popup js popup js script script script body body body 
+html html html popup js cleaned for clarity and conciseness Copy Edit document a
+ddEventListener DOMContentLoaded const toggleButton document getElementById togg
+le button const statusText document getElementById status chrome storage local g
+et doomMeterEnabled doomMeterEnabled true updateUI doomMeterEnabled toggleButton
+ addEventListener click chrome storage local get doomMeterEnabled doomMeterEnabl
+ed true const newValue doomMeterEnabled chrome storage local set doomMeterEnable
+d newValue updateUI newValue chrome runtime sendMessage action toggle extension 
+enabled newValue function updateUI isEnabled toggleButton classList toggle on is
+Enabled statusText textContent DoomMeter is isEnabled ON OFF document document a
+ddEventListener addEventListener DOMContentLoaded DOMContentLoaded const const t
+oggleButton document document getElementById getElementById toggle button toggle
+ button const const statusText document document getElementById getElementById s
+tatus status chrome storage storage local local get get doomMeterEnabled doomMet
+erEnabled doomMeterEnabled true doomMeterEnabled true doomMeterEnabled true true
+ updateUI updateUI doomMeterEnabled toggleButton addEventListener addEventListen
+er click click chrome storage storage local local get get doomMeterEnabled doomM
+eterEnabled doomMeterEnabled true doomMeterEnabled true doomMeterEnabled true tr
+ue const const newValue doomMeterEnabled chrome storage storage local local set 
+set doomMeterEnabled doomMeterEnabled ne
+============================

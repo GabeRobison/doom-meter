@@ -1,0 +1,43 @@
+
+============================
+Date/Time: 2025-03-29T20:52:07.672Z
+Text Submitted: 
+target tabId files content js if chrome runtime lastError return console warn Sc
+ript injection failed chrome runtime lastError message chrome tabs sendMessage t
+abId action extract text response if chrome runtime lastError response text retu
+rn fetch http localhost analyze sentiment method POST headers Content Type appli
+cation json body JSON stringify text response text then r r json then score mess
+age error if error return console error API error error chrome storage local set
+ sentimentScore tabId score analyzed url true chrome scripting executeScript tar
+get tabId func score message let el document getElementById doom meter Object as
+sign document createElement div id doom meter el style position fixed top px rig
+ht px padding px background rgba color fff font size px border radius px z index
+ max width px el innerHTML strong Doom Meter score strong br span message span i
+f document getElementById doom meter document body appendChild el args score mes
+sage catch e console error Sentiment analysis failed e const analyzeActiveTab ch
+rome tabs query active true currentWindow true tab if shouldAnalyze tab url anal
+yzeTab tab id tab url chrome tabs onUpdated addListener tabId status tab if stat
+us complete shouldAnalyze tab url analyzeTab tabId tab url chrome tabs onActivat
+ed addListener tabId chrome tabs get tabId tab if shouldAnalyze tab url analyzeT
+ab tabId tab url const removeDoomMeterFromAllTabs chrome tabs query tabs tabs fo
+rEach id url if shouldAnalyze url chrome scripting executeScript target tabId id
+ func document getElementById doom meter remove let let doomMeterEnabled true tr
+ue chrome storage storage local local get get doomMeterEnabled doomMeterEnabled 
+doomMeterEnabled enabled doomMeterEnabled enabled doomMeterEnabled enabled doomM
+eterEnabled enabled true true chrome runtime runtime onMessage onMessage addList
+ener addListener action enabled sendResponse action enabled sendResponse action 
+enabled sendResponse if if action toggle extension toggle extension doomMeterEna
+bled enabled enabled analyzeActiveTab analyzeActiveTab removeDoomMeterFromAllTab
+s removeDoomMeterFromAllTabs sendResponse sendResponse status status success suc
+cess const const shouldAnalyze shouldAnalyze url url doomMeterEnabled url chrome
+ chrome file file about about https www google com https www google com some som
+e p p p url startsWith startsWith p const const analyzeTab analyzeTab tabId url 
+tabId url chrome storage storage local local get get analyzed url analyzed url u
+rl res res res if if res analyzed url analyzed url url return return chrome scri
+pting scripting executeScript executeScript target target tabId files files cont
+ent js content js if if chrome runtime runtime lastError lastError return return
+ console console warn warn Script injection failed Script injection failed chrom
+e runtime runtime lastError lastError message message chrome tabs tabs sendMessa
+ge sendMessage tabId action action extract text extract text response response r
+esponse if if chrome runtime runtime las
+============================

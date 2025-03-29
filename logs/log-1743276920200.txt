@@ -1,0 +1,45 @@
+
+============================
+Date/Time: 2025-03-29T19:35:20.200Z
+Text Submitted: 
+ agents Agents SDK REALTIME API Using the Realtime API Realtime conversations Re
+altime transcription Voice activity detection SPECIALIZED MODELS Image generatio
+n Text to speech Speech to text Embeddings Moderation OPENAI PLATFORM Fine tunin
+g Distillation Retrieval Evaluations Batch Prompt generation BEST PRACTICES Prom
+pt engineering Production best practices Safety best practices Prompt Caching Pr
+edicted Outputs Model selection Latency optimization Accuracy optimization Advan
+ced usage Responses vs Chat Completions ASSISTANTS API Overview Quickstart Deep 
+dive Tools What s new RESOURCES Terms and policies Changelog Your data Rate limi
+ts Deprecations ChatGPT Actions Search Search K Overview Quickstart Models Prici
+ng Libraries Text and prompting Images and vision Audio and speech Structured Ou
+tputs Function calling Conversation state Streaming File inputs Reasoning Using 
+built in tools Web search File search Computer use Building agents Voice agents 
+Agents SDK Using the Realtime API Realtime conversations Realtime transcription 
+Voice activity detection Image generation Text to speech Speech to text Embeddin
+gs Moderation Fine tuning Distillation Retrieval Evaluations Batch Prompt genera
+tion Prompt engineering Production best practices Safety best practices Prompt C
+aching Predicted Outputs Model selection Latency optimization Accuracy optimizat
+ion Advanced usage Responses vs Chat Completions Overview Quickstart Deep dive T
+ools What s new Terms and policies Changelog Your data Rate limits Deprecations 
+ChatGPT Actions Get free tokens on traffic shared with OpenAI Valid until April 
+OpenAI developer platform Developer quickstart Make your first API request in mi
+nutes Learn the basics of the OpenAI platform min javascript import OpenAI from 
+openai const client new OpenAI const response await client responses create mode
+l gpt o input Write a one sentence bedtime story about a unicorn console log res
+ponse output text Browse models View all GPT Preview Largest and most capable GP
+T model o mini Fast flexible intelligent reasoning model GPT o Fast intelligent 
+flexible GPT model Start building Read and generate text Use the API to prompt a
+ model and generate text Use a model s vision feature Allow models to see and an
+alyze images in your application Generate images as output Create artistic or de
+sign applications with DALL E Build apps with audio Analyze transcribe and gener
+ate audio with API endpoints Build agentic applications Use the API to build age
+nts that use tools and computers Achieve complex tasks with reasoning Use reason
+ing models to carry out complex tasks Get structured data from models Use Struct
+ured Outputs to get model responses that adhere to a JSON schema Tailor to your 
+use case Adjust our models to perform specifically for your use case with fine t
+uning evals and distillation Help center Frequently asked account and billing qu
+estions Developer forum Discuss topics with other developers Cookbook Open sourc
+e collection of examples and guides Stat
+
+============================
+  

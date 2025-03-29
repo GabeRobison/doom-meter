@@ -1,0 +1,43 @@
+
+============================
+Date/Time: 2025-03-29T21:04:26.836Z
+Text Submitted: 
+yzed url url result result result if if result analyzed url analyzed url url ret
+urn return This skips injecting the overlay again on page refresh since it think
+s the page is already analyzed Fix Re inject overlay on refresh if sentiment sco
+re exists To do that you can modify analyzeTab to check if the sentiment score e
+xists and re inject the overlay even if the page was previously analyzed Here s 
+how to fix it Update analyzeTab in background js Replace Copy Edit if result ana
+lyzed url return if if result analyzed url analyzed url url return return With C
+opy Edit if result analyzed url chrome storage local get sentimentScore tabId sc
+oreResult const score scoreResult sentimentScore tabId if score undefined Restor
+e cached overlay const message getMessageForScore score New function you add bel
+ow injectDoomOverlay tabId score message return if if result analyzed url analyz
+ed url url chrome storage storage local local get get sentimentScore tabId senti
+mentScore tabId tabId scoreResult scoreResult scoreResult const const score scor
+eResult sentimentScore tabId sentimentScore tabId tabId if if score undefined un
+defined Restore cached overlay Restore cached overlay const const message getMes
+sageForScore getMessageForScore score New function you add below New function yo
+u add below injectDoomOverlay injectDoomOverlay tabId score message return retur
+n Add helper function in background js Add this below your existing functions Co
+py Edit function getMessageForScore score const messages Read away This page is 
+sunshine and rainbows You re safe This page has good vibes and calm content No w
+orries here mildly serious but nothing troubling Slightly downbeat but manageabl
+e Proceed with awareness Neutral territory Some negativity may be present This p
+age might carry a bit of gloom Skim cautiously Heads up this might be a bummer P
+repare emotionally Caution the content here could dampen your mood Warning highl
+y negative content detected Doom alert This page might ruin your whole day retur
+n messages score Sentiment unknown function function getMessageForScore getMessa
+geForScore score score const const messages Read away This page is sunshine and 
+rainbows Read away This page is sunshine and rainbows You re safe This page has 
+good vibes and calm content You re safe This page has good vibes and calm conten
+t No worries here mildly serious but nothing troubling No worries here mildly se
+rious but nothing troubling Slightly downbeat but manageable Proceed with awaren
+ess Slightly downbeat but manageable Proceed with awareness Neutral territory So
+me negativity may be present Neutral territory Some negativity may be present Th
+is page might carry a bit of gloom Skim cautiously This page might carry a bit o
+f gloom Skim cautiously Heads up this might be a bummer Prepare emotionally Head
+s up this might be a bummer Prepare emotionally Caution the content here could d
+ampen your mood Caution the content here could dampen your mood Warning highly n
+egative content detected Warning highly 
+============================

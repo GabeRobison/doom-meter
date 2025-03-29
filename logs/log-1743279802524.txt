@@ -1,0 +1,43 @@
+
+============================
+Date/Time: 2025-03-29T20:23:22.523Z
+Text Submitted: 
+bled updateUI updateUI doomMeterEnabled true true toggleButton addEventListener 
+addEventListener click click chrome storage storage local local get get doomMete
+rEnabled doomMeterEnabled doomMeterEnabled doomMeterEnabled doomMeterEnabled con
+st const newValue doomMeterEnabled true true chrome storage storage local local 
+set set doomMeterEnabled doomMeterEnabled newValue updateUI updateUI newValue ch
+rome runtime runtime sendMessage sendMessage action action toggle extension togg
+le extension enabled enabled newValue function function updateUI updateUI isEnab
+led isEnabled toggleButton classList classList toggle toggle on on isEnabled sta
+tusText innerText innerText DoomMeter is isEnabled ON DoomMeter is isEnabled ON 
+isEnabled ON ON OFF OFF server js Copy Edit import express from express import f
+etch from node fetch import cors from cors import fs from fs import path from pa
+th import fileURLToPath from url import dotenv from dotenv dotenv config const f
+ilename fileURLToPath import meta url const dirname path dirname filename const 
+app express const port const apiKey process env OPENAI API KEY if apiKey console
+ error Missing OPENAI API KEY in env process exit app use cors app use express j
+son const logsDir path join dirname logs if fs existsSync logsDir fs mkdirSync l
+ogsDir function wrapText text maxLength return text match new RegExp maxLength g
+ join n app post analyze sentiment async req res const text req body text const 
+timestamp new Date toISOString const logEntry Date Time timestamp Text Submitted
+ wrapText text fs writeFile path join logsDir log Date now txt logEntry err if e
+rr console error Error writing log file err else console log Log written try con
+st response await fetch https api openai com v chat completions method POST head
+ers Content Type application json Authorization Bearer apiKey body JSON stringif
+y model gpt o mini messages role user content Give a sentiment score from to for
+ the following text is very negative is neutral Respond with only the number Tex
+t text max tokens const data await response json if data error console error Ope
+nAI API Error data error return res status json error OpenAI API error const sco
+re data choices message content trim res json score catch error console error Er
+ror error res status json error Internal server error app listen port console lo
+g Server running at http localhost port import import express from from express 
+express import import fetch from from node fetch node fetch import import cors f
+rom from cors cors import import fs from from fs fs import import path from from
+ path path import import fileURLToPath from from url url import import dotenv fr
+om from dotenv dotenv dotenv config config const const filename fileURLToPath fi
+leURLToPath import import meta meta url url const const dirname path dirname dir
+name filename const const app express express const const port const const apiKe
+y process env env OPENAI API KEY OPENAI API KEY if if apiKey console console err
+or error Missing OPENAI API KEY in env M
+============================

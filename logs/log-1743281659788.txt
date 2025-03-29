@@ -1,0 +1,21 @@
+
+============================
+Date/Time: 2025-03-29T20:54:19.788Z
+Text Submitted: 
+o You said background js JavaScript content js JavaScript package json File popu
+p html File popup js JavaScript server js JavaScript ChatGPT said Popup cleanup 
+I ve cleaned up your popup html to align with best practices and visual consiste
+ncy based on your DoomMeter logo Simplified CSS to avoid redundancy Better contr
+ast and readability with refined colors Optimized transitions and layout Reduced
+ font variety for a more cohesive UI Let me know if you d like the same cleanup 
+for your JS files or to apply a dark theme that matches your logo even better Po
+pup cleanup Preview Preview PLUS DOCTYPE html html head title title style body f
+ont family sans serif width px padding px text align center background color f f
+ f color toggle container display flex justify content center margin top px togg
+le button width px height px background url assets doom meter png no repeat cent
+er cover border none cursor pointer transition transform s ease box shadow s eas
+e toggle button on transform scale box shadow px red status margin top px font s
+ize px style head body h h div id toggle container button id toggle button butto
+n div div id status div script src popup js script body html Copy Copy Copy Copy
+ Copy
+============================

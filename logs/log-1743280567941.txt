@@ -1,0 +1,43 @@
+
+============================
+Date/Time: 2025-03-29T20:36:07.941Z
+Text Submitted: 
+ Edit import express from express import fetch from node fetch import cors from 
+cors import fs from fs import path from path import fileURLToPath from url impor
+t dotenv from dotenv dotenv config const filename fileURLToPath import meta url 
+const dirname path dirname filename const app express const port const apiKey pr
+ocess env OPENAI API KEY if apiKey console error Missing OPENAI API KEY in env p
+rocess exit app use cors app use express json const logsDir path join dirname lo
+gs if fs existsSync logsDir fs mkdirSync logsDir function wrapText text maxLengt
+h return text match new RegExp maxLength g join n app post analyze sentiment asy
+nc req res const text req body text const timestamp new Date toISOString const l
+ogEntry Date Time timestamp Text Submitted wrapText text fs writeFile path join 
+logsDir log Date now txt logEntry err if err console error Error writing log fil
+e err else console log Log written try const response await fetch https api open
+ai com v chat completions method POST headers Content Type application json Auth
+orization Bearer apiKey body JSON stringify model gpt o mini messages role user 
+content Give a sentiment score from to for the following text is very negative i
+s neutral Respond with only the number Text text max tokens const data await res
+ponse json if data error console error OpenAI API Error data error return res st
+atus json error OpenAI API error const score data choices message content trim r
+es json score catch error console error Error error res status json error Intern
+al server error app listen port console log Server running at http localhost por
+t import import express from from express express import import fetch from from 
+node fetch node fetch import import cors from from cors cors import import fs fr
+om from fs fs import import path from from path path import import fileURLToPath
+ from from url url import import dotenv from from dotenv dotenv dotenv config co
+nfig const const filename fileURLToPath fileURLToPath import import meta meta ur
+l url const const dirname path dirname dirname filename const const app express 
+express const const port const const apiKey process env env OPENAI API KEY OPENA
+I API KEY if if apiKey console console error error Missing OPENAI API KEY in env
+ Missing OPENAI API KEY in env process exit exit app use use cors cors app use u
+se express json json const const logsDir path join join dirname logs logs if if 
+fs existsSync existsSync logsDir fs mkdirSync mkdirSync logsDir function functio
+n wrapText wrapText text maxLength text maxLength return return text match match
+ new new RegExp RegExp maxLength maxLength maxLength g g join join n n app post 
+post analyze sentiment analyze sentiment async async req res const const text re
+q body body text text const const timestamp new new Date Date toISOString toISOS
+tring const const logEntry Date Time Date Time timestamp timestamp Text Submitte
+d wrapText text wrapText text fs writeFile writeFile path join join logsDir log 
+Date log Date Date Date now txt logEntry
+============================

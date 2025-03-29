@@ -1,0 +1,43 @@
+
+============================
+Date/Time: 2025-03-29T20:23:18.347Z
+Text Submitted: 
+r DOMContentLoaded DOMContentLoaded const const toggleButton document document g
+etElementById getElementById toggle button toggle button const const statusText 
+document document getElementById getElementById status status chrome storage sto
+rage local local get get doomMeterEnabled doomMeterEnabled doomMeterEnabled doom
+MeterEnabled doomMeterEnabled updateUI updateUI doomMeterEnabled true true toggl
+eButton addEventListener addEventListener click click chrome storage storage loc
+al local get get doomMeterEnabled doomMeterEnabled doomMeterEnabled doomMeterEna
+bled doomMeterEnabled const const newValue doomMeterEnabled true true chrome sto
+rage storage local local set set doomMeterEnabled doomMeterEnabled newValue upda
+teUI updateUI newValue chrome runtime runtime sendMessage sendMessage action act
+ion toggle extension toggle extension enabled enabled newValue function function
+ updateUI updateUI isEnabled isEnabled toggleButton classList classList toggle t
+oggle on on isEnabled statusText innerText innerText DoomMeter is isEnabled ON D
+oomMeter is isEnabled ON isEnabled ON ON OFF OFF server js Copy Edit import expr
+ess from express import fetch from node fetch import cors from cors import fs fr
+om fs import path from path import fileURLToPath from url import dotenv from dot
+env dotenv config const filename fileURLToPath import meta url const dirname pat
+h dirname filename const app express const port const apiKey process env OPENAI 
+API KEY if apiKey console error Missing OPENAI API KEY in env process exit app u
+se cors app use express json const logsDir path join dirname logs if fs existsSy
+nc logsDir fs mkdirSync logsDir function wrapText text maxLength return text mat
+ch new RegExp maxLength g join n app post analyze sentiment async req res const 
+text req body text const timestamp new Date toISOString const logEntry Date Time
+ timestamp Text Submitted wrapText text fs writeFile path join logsDir log Date 
+now txt logEntry err if err console error Error writing log file err else consol
+e log Log written try const response await fetch https api openai com v chat com
+pletions method POST headers Content Type application json Authorization Bearer 
+apiKey body JSON stringify model gpt o mini messages role user content Give a se
+ntiment score from to for the following text is very negative is neutral Respond
+ with only the number Text text max tokens const data await response json if dat
+a error console error OpenAI API Error data error return res status json error O
+penAI API error const score data choices message content trim res json score cat
+ch error console error Error error res status json error Internal server error a
+pp listen port console log Server running at http localhost port import import e
+xpress from from express express import import fetch from from node fetch node f
+etch import import cors from from cors cors import import fs from from fs fs imp
+ort import path from from path path import import fileURLToPath from from url ur
+l import import dotenv from from dotenv 
+============================

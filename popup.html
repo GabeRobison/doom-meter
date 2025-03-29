@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>DoomMeter</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212;
+      color: #fff;
+      width: 240px;
+      padding: 20px;
+      margin: 0;
+      text-align: center;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+    }
+
+    h2 {
+      margin-bottom: 16px;
+      font-size: 22px;
+      color: #ff4c4c;
+      letter-spacing: 1px;
+    }
+
+    #toggle-button {
+      width: 70px;
+      height: 70px;
+      background-image: url('assets/doom-meter.png');
+      background-size: cover;
+      background-position: center;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      outline: none;
+      box-shadow: 0 4px 8px rgba(255, 76, 76, 0.4);
+    }
+
+    #toggle-button:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 15px 4px #ff4c4c;
+    }
+
+    #toggle-button.on {
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0% {
+        box-shadow: 0 0 10px #ff4c4c;
+      }
+
+      50% {
+        box-shadow: 0 0 20px #ff4c4c;
+      }
+
+      100% {
+        box-shadow: 0 0 10px #ff4c4c;
+      }
+    }
+
+    #status {
+      margin-top: 12px;
+      font-size: 15px;
+      color: #ccc;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>DoomMeter</h2>
+  <button id="toggle-button"></button>
+  <div id="status">Loading...</div>
+  <script src="popup.js"></script>
+</body>
+
+</html>

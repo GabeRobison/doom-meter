@@ -1,0 +1,43 @@
+
+============================
+Date/Time: 2025-03-29T20:09:40.076Z
+Text Submitted: 
+ localhost analyze sentiment method method POST POST headers headers Content Typ
+e Content Type application json application json body body JSON JSON stringify s
+tringify text then then res res res res json json then then data data data if if
+ data error error console console error error OpenAI API Error OpenAI API Error 
+data error error return return const const score data score score chrome storage
+ storage local local set set sentimentScore tabId sentimentScore tabId tabId sco
+re injectDoomMeter injectDoomMeter tabId score catch catch error error error con
+sole console error error Error analyzing sentiment Error analyzing sentiment err
+or function function injectDoomMeter injectDoomMeter tabId score tabId score chr
+ome scripting scripting executeScript executeScript target target tabId func fun
+c score score score let let doomMeter document document getElementById getElemen
+tById doom meter doom meter if if doomMeter doomMeter document document createEl
+ement createElement div div doomMeter id id doom meter doom meter doomMeter styl
+e style position fixed top px right px padding px background rgba color fff font
+ size px border radius px z index position fixed top px right px padding px back
+ground rgba color fff font size px border radius px z index document document bo
+dy body appendChild appendChild doomMeter doomMeter textContent textContent Doom
+ Meter score Doom Meter score score args args score function function removeDoom
+MeterFromAllTabs removeDoomMeterFromAllTabs chrome tabs tabs query query tabs ta
+bs tabs tabs forEach forEach tab tab tab if if isValidUrl isValidUrl tab url url
+ chrome scripting scripting executeScript executeScript target target tabId tabI
+d tab id id func func const const doomMeter document document getElementById get
+ElementById doom meter doom meter doomMeter remove remove content js Copy Edit f
+unction extractTextFromPage const elements document querySelectorAll p h h h h h
+ h span const texts Array from elements filter el el offsetParent null el innerT
+ext trim map el el innerText let fullText texts join replace a zA Z s g replace 
+s g trim return fullText length fullText fullText substring fullText length full
+Text length chrome runtime onMessage addListener message sender sendResponse if 
+message action extract text sendResponse text extractTextFromPage function funct
+ion extractTextFromPage extractTextFromPage const const elements document docume
+nt querySelectorAll querySelectorAll p h h h h h h span p h h h h h h span const
+ const texts Array Array from from elements filter filter el el el el offsetPare
+nt offsetParent null null el innerText innerText trim trim map map el el el el i
+nnerText innerText let let fullText texts join join replace replace a zA Z s g a
+ zA Z s g replace replace s g s g trim trim return return fullText length length
+ fullText fullText substring substring fullText length length fullText length le
+ngth chrome runtime runtime onMessage onMessage addListener addListener message 
+sender sendResponse message sender sendR
+============================

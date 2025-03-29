@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "DoomMeter",
+  "version": "1.0.0",
+  "description": "Chrome extension that analyzes sentiment",
+  "permissions": ["scripting", "storage", "tabs", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/doom-meter.png",
+      "48": "assets/doom-meter.png",
+      "128": "assets/doom-meter.png"
+    }
+  },
+  "host_permissions": ["<all_urls>"],
+  "icons": {
+    "16": "assets/doom-meter.png",
+    "48": "assets/doom-meter.png",
+    "128": "assets/doom-meter.png"
+  }
+}

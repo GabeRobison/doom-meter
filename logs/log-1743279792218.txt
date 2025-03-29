@@ -1,0 +1,43 @@
+
+============================
+Date/Time: 2025-03-29T20:23:12.218Z
+Text Submitted: 
+Value chrome runtime sendMessage action toggle extension enabled newValue functi
+on updateUI isEnabled toggleButton classList toggle on isEnabled statusText inne
+rText DoomMeter is isEnabled ON OFF document document addEventListener addEventL
+istener DOMContentLoaded DOMContentLoaded const const toggleButton document docu
+ment getElementById getElementById toggle button toggle button const const statu
+sText document document getElementById getElementById status status chrome stora
+ge storage local local get get doomMeterEnabled doomMeterEnabled doomMeterEnable
+d doomMeterEnabled doomMeterEnabled updateUI updateUI doomMeterEnabled true true
+ toggleButton addEventListener addEventListener click click chrome storage stora
+ge local local get get doomMeterEnabled doomMeterEnabled doomMeterEnabled doomMe
+terEnabled doomMeterEnabled const const newValue doomMeterEnabled true true chro
+me storage storage local local set set doomMeterEnabled doomMeterEnabled newValu
+e updateUI updateUI newValue chrome runtime runtime sendMessage sendMessage acti
+on action toggle extension toggle extension enabled enabled newValue function fu
+nction updateUI updateUI isEnabled isEnabled toggleButton classList classList to
+ggle toggle on on isEnabled statusText innerText innerText DoomMeter is isEnable
+d ON DoomMeter is isEnabled ON isEnabled ON ON OFF OFF server js Copy Edit impor
+t express from express import fetch from node fetch import cors from cors import
+ fs from fs import path from path import fileURLToPath from url import dotenv fr
+om dotenv dotenv config const filename fileURLToPath import meta url const dirna
+me path dirname filename const app express const port const apiKey process env O
+PENAI API KEY if apiKey console error Missing OPENAI API KEY in env process exit
+ app use cors app use express json const logsDir path join dirname logs if fs ex
+istsSync logsDir fs mkdirSync logsDir function wrapText text maxLength return te
+xt match new RegExp maxLength g join n app post analyze sentiment async req res 
+const text req body text const timestamp new Date toISOString const logEntry Dat
+e Time timestamp Text Submitted wrapText text fs writeFile path join logsDir log
+ Date now txt logEntry err if err console error Error writing log file err else 
+console log Log written try const response await fetch https api openai com v ch
+at completions method POST headers Content Type application json Authorization B
+earer apiKey body JSON stringify model gpt o mini messages role user content Giv
+e a sentiment score from to for the following text is very negative is neutral R
+espond with only the number Text text max tokens const data await response json 
+if data error console error OpenAI API Error data error return res status json e
+rror OpenAI API error const score data choices message content trim res json sco
+re catch error console error Error error res status json error Internal server e
+rror app listen port console log Server running at http localhost port import im
+port express from from express express i
+============================
