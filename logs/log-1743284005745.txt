@@ -1,0 +1,31 @@
+
+============================
+Date/Time: 2025-03-29T21:33:25.738Z
+Text Submitted: 
+Navigation Menu GabeRobison doom meter Type to search Code Issues Pull requests 
+Actions Projects Wiki Security Insights Settings Public Watch Watch Star GabeRob
+ison doom meter main main main Branch Branch Branch Tags Tags Tags t t Add file 
+Add file Add file Code Code Folders and files Name Last commit message Last comm
+it date Latest commit edited readme History Commits Commits Commits Repository f
+iles navigation README DoomMeter Chrome Extension DoomMeter is a Chrome extensio
+n that scans web pages in real time and rates their sentiment from neutral to ve
+ry negative using OpenAI s GPT o mini model The sentiment score is visually disp
+layed on the page as a Doom Meter Features Chrome Extension Setup Clone the Repo
+ cd Load Extension in Chrome Local Server Setup Install Dependencies Create Envi
+ronment File Create a env file in the root of the project Then add your OpenAI A
+PI key Start the Server The server runs at http localhost and provides a analyze
+ sentiment endpoint Project Structure Security Best Practices Example Request to
+ Local Server text Today was a terrible day Everything went wrong Response score
+ Troubleshooting Contributing Pull requests and feature suggestions are welcome 
+Feel free to fork the repo and submit improvements Contact If you have any quest
+ions or feedback feel free to reach out at gaberobison mn gmail com About A Chro
+me extension that analyzes webpage sentiment and warns users about negativity Re
+sources Activity Stars Watchers Forks Releases Packages Languages JavaScript HTM
+L Suggested workflows Publish Node js Package to GitHub Packages Configure Publi
+sh Node js Package to GitHub Packages Configure Publish Node js Package to GitHu
+b Packages Publish Node js Package to GitHub Packages Publishes a Node js packag
+e to GitHub Packages Grunt Configure Grunt Configure Grunt Grunt Build a NodeJS 
+project with npm and grunt Deno Configure Deno Configure Deno Deno Test your Den
+o project Dismiss suggestions Dismiss suggestions Footer GitHub Inc Footer navig
+ation
+============================

@@ -1,0 +1,43 @@
+
+============================
+Date/Time: 2025-03-29T21:55:59.386Z
+Text Submitted: 
+ further Did you notice if this started to happen after a specific event such as
+ an OS update If yes please send us the details On another note and just to conf
+irm is this happening when streaming music on other apps If not sure it d be awe
+some if you could check Lastly we d suggest you take a look at this Apple Commun
+ity thread and follow some of the steps suggested there to see if you notice any
+ difference in this behavior Keep us in the loop AlejaR Moderator REPLY bigmanmu
+ffin bigmanmuffin PM PM The problem seems to have fixed itself Thanks for the re
+ply anyway AlejaR AlejaR REPLY bobthesimple bobthesimple PM PM REPLY Babalu Baba
+lu AM AM Hello Can you please give priority to this problem It seems that after 
+some time of use the app goes crazy and burn the battery in a few hours This is 
+important It s not only blocking our work but also damages the battery For compa
+rison in the screenshot spotify is using almost x chrome when chrome is been use
+d heavily for development in this time frame REPLY Eni Eni PM PM Hey there Babal
+u Babalu Thanks for getting in touch about this and welcome to the Community Cou
+ld you send us the info AlejaR asked for previously We ll take a closer look Kee
+p us posted Eni Moderator REPLY aic aic PM PM I m having this issue too the app 
+is draining a ton of battery more than the apps and tools that I am actually int
+eracting with even when the Spotify app is just sitting in the background and no
+t playing anything may even be a wake lock hard to tell Spotify Helper Renderer 
+seems to be consuming the most power I think the problem may have coincided with
+ my upgrade to the latest public beta REPLY aic aic PM PM Just realised that thi
+s post is rather out of date Will be helpful if you guys could help still REPLY 
+evandl evandl AM AM Two week old Macbook Pro M Pro had battery drained by in two
+ hours by the Spotify app REPLY evandl evandl AM AM Will never use this desktop 
+app again damaging god knows how many users batteries REPLY aic aic AM AM Techni
+cally this is a new issue I haven t had this before But yeah this has forced me 
+back to Apple Music until this is fixed For reference I run it on an M Air REPLY
+ aic aic AM AM I ve also reinstalled the app and restarted a bunch of times it d
+id not resolve the issue REPLY aakrukover aakrukover PM PM I am also having the 
+same issue photo below shows Spotify energy usage even though I haven t listened
+ to Spotify on my laptop in the last hours MacBook Air running Sonoma was chargi
+ng overnight and in the last hours battery has gone from to because of spotify b
+ackground energy usage REPLY dupatrupa dupatrupa PM PM I can see the same Spotif
+y eats CPU core both in the Mac stand alone app and on the webpage version even 
+when it does not play anything REPLY Vasil Vasil PM PM Hey folks Thank you for t
+he shared info this is on our radar For anyone who hasn t done so please share w
+ith us your app versions as well For anyone new here let us know the app version
+ your device model and its OS version Ma
+============================

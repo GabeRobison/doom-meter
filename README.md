@@ -2,7 +2,7 @@
 
 DoomMeter is a Chrome extension that scans web pages in real time and rates their sentiment from **1 (neutral)** to **10 (very negative)** using OpenAI's GPT-4o-mini model. The sentiment score is visually displayed on the page as a "Doom Meter."
 
-![DoomMeter Gif](assets/doomMeter.gif)
+![DoomMeter Gif](assets/doom-meter.gif)
 
 ---
 

@@ -1,0 +1,43 @@
+
+============================
+Date/Time: 2025-03-29T21:57:26.237Z
+Text Submitted: 
+do not have any effect As soon as I start music Energy Impact jumps to almost I 
+love Spotify but it is unusable on a portable computer and unacceptable even whi
+le pluged in Please this issue has been around for years time to fix it I m work
+ing on a second generation MBP Retina under Happy to provide any more informatio
+n and happy to receive any advice on how to solve this problem Best acsch REPLY 
+REPLY krecio krecio AM AM I also have this problem with Spotify I m using the Sp
+otify Beta version because of the remote control capabilty but i guess that s th
+e same It is since couple of months that the problem is really frustrating somet
+imes The computer s fan goes on and I need to restart the spotify app from time 
+to time as well If that would be a short problem with a Beta version i take the 
+hit as i like new features but i expect it to be quickly fixed as well in case a
+ serious problem shows up On the new computer it s the same thing from the very 
+first hour of using it How is the status on that guys REPLY REPLY acsch acsch PM
+ PM The situation has not improved with the latest update I have tried to desele
+ct local file option and reinstalled Spotify as was suggested in other threads T
+he problelm has not been resolved Spotify constantly has an energy usage of abou
+t kills my battery life and slows down my computer I would really appreciate if 
+Spotify deals with such serious bugs before developing a plethora of new feature
+s Any hints any response REPLY REPLY acsch acsch AM AM No improvement over years
+ I seriously question Spotify s priorities as well as customer support on this T
+he complete lack of improvement and communication is disapointing Any way it s t
+heir decision to care or not about it but it sure is not a great way to persuade
+ more people to use it I seriously consider going back to iTunes and I will stop
+ recommending Spotify to network REPLY REPLY www www PM PM REPLY REPLY carrerasr
+odrigo carrerasrodrigo PM PM I m having the same issue The energy impact it s to
+o high This is happening even when i m not playing music I m testing this on a M
+acBook Pro Retina inch Early with the lastest spotify versi n REPLY REPLY bosfor
+Blues bosforBlues AM AM I am seeing the same thing Even when not playing anythin
+g Spotify is in the top in Activity Monitor scoring well above dropbox onedrive 
+and the like When I am playing music it is considerably higher Macbook retina in
+ch late latest Spotify version REPLY REPLY Dangrove Dangrove PM PM I got my MacB
+ook Pro Early model yesterday and Spotify was one of the first apps I installed 
+The averge energy impact is around after a day of moderate usage OS X likes to t
+ell me Safari is using a lot energy all the time but the average for that is aro
+und People online have said the highest values they ve ever seen on energy usage
+ have been around ish and that s only when running the Geekbench test so conside
+ring Spotify is doing nothing more than streaming music that s absolutely ridicu
+lous Considering we have to pay for the 
+============================
