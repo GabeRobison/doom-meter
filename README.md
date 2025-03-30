@@ -57,6 +57,10 @@ Then add your OpenAI API key:
 OPENAI_API_KEY=your_openai_api_key_here
 ```
 
+- API keys are stored in `.env` and never in extension code
+- `.env` and `logs/` are ignored via `.gitignore`
+- Do **not** expose the OpenAI key in client-side scripts
+
 ### 3. Start the Server
 
 ```bash
@@ -67,33 +71,7 @@ The server runs at `http://localhost:3000` and provides a `/analyze-sentiment` e
 
 ---
 
-## Project Structure
-
-```
-doom-meter/
-├── background.js       # Chrome extension logic and tab analysis
-├── content.js          # Extracts and cleans text from webpages
-├── popup.html          # Extension popup UI
-├── popup.js            # Handles popup toggle behavior
-├── server.js           # Express server for sentiment analysis
-├── .env.example        # Example env file
-├── logs/               # Text logs of analyzed pages
-├── package.json        # Node.js dependencies
-└── assets/             # Images (e.g., doom-meter.png)
-```
-
----
-
-## Security & Best Practices
-
-- API keys are stored in `.env` and never in extension code
-- `.env` and `logs/` are ignored via `.gitignore`
-- Requests from the extension are routed through a secure local server
-- Do **not** expose the OpenAI key in client-side scripts
-
----
-
-## Example Request to Local Server
+## Example Request to test Local Server
 
 ```bash
 user ~ % curl -X POST http://localhost:3000/analyze-sentiment \
@@ -116,7 +94,7 @@ Response:
 
 - **CORS Error**: Ensure the extension is allowed to access `localhost:3000`
 - **No Score Displayed**: Make sure the server is running before opening tabs
-- **Extension not injecting**: URLs like `chrome://`, `file://`, and some Google domains are not allowed to be analyzed to save on openAI tokens
+- **Extension not injecting**: URLs starting with `chrome://`, `file://`, and some Google domains are not allowed to be analyzed to save on openAI tokens (sorry if you use a different browser or search engine lol)
 
 ---
 
