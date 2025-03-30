@@ -96,19 +96,17 @@ doom-meter/
 ## Example Request to Local Server
 
 ```bash
-POST http://localhost:3000/analyze-sentiment
-Content-Type: application/json
-
-{
-  "text": "Today was a terrible day. Everything went wrong."
-}
+user ~ % curl -X POST http://localhost:3000/analyze-sentiment \
+  -H "Content-Type: application/json" \
+  -d '{"text": "Today was a terrible day. Everything went wrong."}'
 ```
 
 Response:
 
 ```json
 {
-  "score": "9"
+  "score": 10,
+  "message": "🚨 Doom alert! This page might ruin your whole day."
 }
 ```
 
@@ -118,17 +116,12 @@ Response:
 
 - **CORS Error**: Ensure the extension is allowed to access `localhost:3000`
 - **No Score Displayed**: Make sure the server is running before opening tabs
-- **Extension not injecting**: Avoid restricted URLs like `chrome://`, `file://`, and some Google domains
+- **Extension not injecting**: URLs like `chrome://`, `file://`, and some Google domains are not allowed to be analyzed to save on openAI tokens
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
-Pull requests and feature suggestions are welcome! Feel free to fork the repo and submit improvements.
-
----
-
-## 📬 Contact
-
-If you have any questions or feedback, feel free to reach out at:  
-📧 gaberobison.mn@gmail.com
+- Pull requests and feature suggestions are welcome! Feel free to fork the repo and submit improvements.
+- If you have any questions or feedback, feel free to reach out at:  
+  📧 gaberobison.mn@gmail.com

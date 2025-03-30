@@ -1,0 +1,17 @@
+
+============================
+Date/Time: 2025-03-30T01:43:54.670Z
+Text Submitted: 
+o PLUS You said ChatGPT said To ignore all files in a folder but not the folder 
+itself you can use the following syntax in your gitignore file Copy Edit foldern
+ame foldername gitkeep foldername foldername gitkeep Explanation foldername igno
+res everything inside the folder foldername gitkeep allows you to keep one place
+holder file so the folder itself is tracked by Git You ll need to manually creat
+e the gitkeep file or any dummy file of your choice inside the folder to make Gi
+t track the otherwise empty folder Example Let s say you have a folder named log
+s and you want Git to ignore its contents but still keep the folder Copy Edit lo
+gs logs gitkeep logs logs gitkeep Then run Copy Edit touch logs gitkeep git add 
+logs gitkeep touch touch logs gitkeep git add logs gitkeep Let me know if you al
+so want to exclude subdirectories or keep specific file types o o Search Search 
+Deep research
+============================
